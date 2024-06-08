@@ -1,4 +1,5 @@
 
+
 # SSM: Simple Service Manager : Run any Windows application as a Service
 
 ## Features:
@@ -10,10 +11,10 @@
 * Service Logs all errors in log files to help torubleshoot the issues.
 
 ## Download
-- Download from the link
+- Download from the link  [Release V1.0.0](https://github.com/koleys/SimpleServiceManager/releases/download/v1.0.0/SimpleServiceManager.zip)
 
 ## Installation
-- Place **SimpleServiceManager.exe** in an accessible folder on your system.
+- Extract **SimpleServiceManager.zip** in an accessible folder on your system.
 
 - Modify the **appsettings.json file** with the path to your Application.exe which you want to run as service
 ```json
