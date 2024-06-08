@@ -1,6 +1,6 @@
 
 
-# SSM: Simple Service Manager : Run any Windows application as a Service
+# SSM: Simple Service Manager : Run any Windows application as a Service an NSSM alternative
 
 ## Features:
 * .NET 8 alternative of NSSM (the Non-Sucking Service Manager), srvany and other service helper programs.
