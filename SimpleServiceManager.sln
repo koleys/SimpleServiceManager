@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleServiceManager", "Sim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAPI", "TestAPI\TestAPI.csproj", "{CCA1171F-87EC-49E2-A0D9-27D1D4D1A568}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{7E84B7CD-D293-45F0-943C-27226450B217}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CCA1171F-87EC-49E2-A0D9-27D1D4D1A568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA1171F-87EC-49E2-A0D9-27D1D4D1A568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA1171F-87EC-49E2-A0D9-27D1D4D1A568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E84B7CD-D293-45F0-943C-27226450B217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E84B7CD-D293-45F0-943C-27226450B217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E84B7CD-D293-45F0-943C-27226450B217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E84B7CD-D293-45F0-943C-27226450B217}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
