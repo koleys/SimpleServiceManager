@@ -9,9 +9,15 @@
 * If says it's running, it really is. 
 * Service automatically stops if the launched application exits.
 * Service Logs all errors in log files to help torubleshoot the issues.
+  
+## Added new features in v1.1.0
 
+- **Additional parameters**   "AppParams".
+- **Restart App Automatically**    "RestartAppAutomatically".
+- **Restart Delay**    "RestartDelay".
+- Apart form .exe files can run both .bat and .ps1 fiels as well.
 ## Download
-- Download from the link  [Release V1.0.0](https://github.com/koleys/SimpleServiceManager/releases/download/v1.0.0/SimpleServiceManager.zip)
+- Download from the link  [Release V1.1.0](https://github.com/koleys/SimpleServiceManager/releases/download/v1.1.0/SimpleServiceManager1.1.0.zip)
 
 ## Installation
 - Extract **SimpleServiceManager.zip** in an accessible folder on your system.
@@ -20,7 +26,10 @@
 ```json
 {
   "Configs": {
-    "AppPath": "C:\\Path\\To\\Your\\Application.exe"
+    "AppPath": "<Filepath>\\TestAPI.exe",  //can not be null
+    "AppParams": "",  //"param1 param2 param3 param4 param5",
+    "RestartAppAutomatically": false, //can not be null
+    "RestartDelay": 5000 //can not be null. Min 1000 ms
   }
 }
 ```
